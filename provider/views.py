@@ -494,7 +494,6 @@ class AccessToken(OAuthView, Mixin):
             pass
 
         return JsonResponse(response_data)
-        )
 
     def authorization_code(self, request, data, client):
         """
